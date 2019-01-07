@@ -10,6 +10,8 @@ public class NumFinderMain {
 
         // this crashes
         nf.find(new int[] {4, 3, 2, 1});
+        nf.find(new int[] {4, Integer.parseInt(null), 2, 1});
+        nf.find(null);
 
         System.out.println(nf.getLargest());
         System.out.println(nf.getSmallest());

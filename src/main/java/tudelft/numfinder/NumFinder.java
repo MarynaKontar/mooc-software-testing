@@ -9,7 +9,8 @@ public class NumFinder {
 
             if(n < smallest)
                 smallest = n;
-            else if (n > largest)
+//            else if (n > largest) // this crashes
+            if (n > largest)
                 largest = n;
 
         }
